@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* General properties */
+
+body {
+  background-color: #f2f6d0;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #E54B4B;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: #DB7F8E;
+}
+
+p, a {
+  font-family: 'Roboto', sans-serif;
+  color: #444140;
+  font-weight: 300;
+}
+
+a {
+  color: #7D80DA;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5F61A2;
+  text-decoration: underline;
+}
+
+/* Layout properties */
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.card {
+  padding: 40px;
+  background-color: white;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #7D80DA;
+}
+
+/* Feature properties */
+
+.button-purple {
+  background-color: #7D80DA;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.button-purple:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #5F61A2;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 5px;
+}
+
+.list-inline i {
+  font-size: 35px;
+}
+
+#introduction {
+  padding: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
