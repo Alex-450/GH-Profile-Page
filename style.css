@@ -46,7 +46,7 @@ a:hover {
   background-color: white;
   margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: 1px 1px 2px #7D80DA;
+  box-shadow: 10px 10px 1px #7D80DA;
 }
 
 /* Feature properties */
@@ -89,6 +89,10 @@ a:hover {
 
 #introduction {
   padding: 20px;
+}
+
+#theme-toggle {
+  margin-top: 50px;
 }
 
 /* Media Queries */

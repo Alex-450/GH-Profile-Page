@@ -3,34 +3,33 @@
 /* General properties */
 
 body {
-  background-color: #000000;
+  background-color: #121212;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: #005E7C;
+  color: #FFFFFF;
   font-weight: 500;
 }
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  color: #005E7C;
+  color: #FFFFFF;
 }
 
 p, a {
   font-family: 'Roboto', sans-serif;
-  color: #0094C6;
-  font-weight: 300;
+  color: #FFFFFF;
+  font-weight: 400;
 }
 
 a {
-  color: #003CDE;
+  color: #BB86FC;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00217A;
-  text-decoration: underline;
+  border-bottom: 2px solid #BB86FC;
 }
 
 /* Layout properties */
@@ -43,17 +42,17 @@ a:hover {
 
 .card {
   padding: 10px 20px 50px 20px;
-  background-color: #040F16;
+  background-color: #263238;
   margin-bottom: 30px;
   border-radius: 10px;
-  box-shadow: 1px 1px 2px #7D80DA;
+  box-shadow: 10px 10px 1px #BB86FC;
 }
 
 /* Feature properties */
 
 .button-purple {
-  background-color: #001242;
-  color: #0094C6;
+  background-color: #BB86FC;
+  color: #FFFFFF;
   padding: 15px;
   border-radius: 5px;
   font-weight: 500;
@@ -62,8 +61,7 @@ a:hover {
 
 .button-purple:hover {
   text-decoration: none;
-  color: #0094C6;
-  background-color: #000616;
+  padding: 17px;
   border: 1px solid #0094C6;
 }
 
@@ -90,6 +88,10 @@ a:hover {
 
 #introduction {
   padding: 20px;
+}
+
+#theme-toggle {
+  margin-top: 50px;
 }
 
 /* Media Queries */

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="dark_mode.css">
+  <link id="theme" rel="stylesheet" href="dark_mode.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <title>Alex Stearn</title>
   <link rel="icon"
@@ -12,14 +12,12 @@
 
     <script>
       function toggleTheme(value) {
-
-        // Obtain the name of stylesheet
-        // as a parameter and set it
-        // using href attribute.
-        var sheets = document
-          .getElementsByTagName('link');
-
-        sheets[0].href = value;
+        var theme = document.getElementsByTagName('link')[0];
+        if (theme.getAttribute('href') == 'style.css') {
+          theme.setAttribute('href', 'dark_mode.css');
+        } else {
+          theme.setAttribute('href', 'style.css');
+        }
       }
     </script>
 
@@ -42,9 +40,8 @@
         <li><a href="https://www.linkedin.com/in/alexander-stearn-96262914b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
       </ul>
     </div>
-    <div>
-      <a class="button-purple" onclick="toggleTheme('dark_mode.css')">Dark mode</a>
-      <a class='button-purple' onclick="toggleTheme('style.css')">Light mode</a>
+    <div id="theme-toggle">
+      <a class="button-purple" onclick="toggleTheme()">Switch theme</a>
     </div>
   </div>
 </body>
