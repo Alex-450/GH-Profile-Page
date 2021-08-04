@@ -24,12 +24,12 @@ p, a {
 }
 
 a {
-  color: #005E7C;
+  color: #003CDE;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7275B5;
+  color: #00217A;
   text-decoration: underline;
 }
 
@@ -63,7 +63,7 @@ a:hover {
 .button-purple:hover {
   text-decoration: none;
   color: #0094C6;
-  background-color: #7275B5;
+  background-color: #000616;
 }
 
 .image-circle {
