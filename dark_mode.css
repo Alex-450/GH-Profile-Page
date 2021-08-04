@@ -3,33 +3,33 @@
 /* General properties */
 
 body {
-  background-color: #f2f6d0;
+  background-color: #000000;
 }
 
 h1 {
   font-family: 'Roboto Slab', serif;
-  color: #E54B4B;
+  color: #005E7C;
   font-weight: 500;
 }
 
 h2 {
   font-family: 'Roboto Slab', serif;
-  color: #DB7F8E;
+  color: #005E7C;
 }
 
 p, a {
   font-family: 'Roboto', sans-serif;
-  color: #444140;
+  color: #0094C6;
   font-weight: 300;
 }
 
 a {
-  color: #7D80DA;
+  color: #005E7C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5F61A2;
+  color: #7275B5;
   text-decoration: underline;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 .card {
   padding: 10px 20px 50px 20px;
-  background-color: white;
+  background-color: #040F16;
   margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 1px 1px 2px #7D80DA;
@@ -52,8 +52,8 @@ a:hover {
 /* Feature properties */
 
 .button-purple {
-  background-color: #7D80DA;
-  color: white;
+  background-color: #001242;
+  color: #0094C6;
   padding: 15px;
   border-radius: 5px;
   font-weight: 500;
@@ -62,8 +62,8 @@ a:hover {
 
 .button-purple:hover {
   text-decoration: none;
-  color: white;
-  background-color: #5F61A2;
+  color: #0094C6;
+  background-color: #7275B5;
 }
 
 .image-circle {
