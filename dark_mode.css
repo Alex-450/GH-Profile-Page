@@ -62,7 +62,7 @@ a:hover {
 .button-purple:hover {
   text-decoration: none;
   padding: 17px;
-  border: 1px solid #0094C6;
+  box-shadow: 0 0 0 2pt #0094C6;
 }
 
 .image-circle {
